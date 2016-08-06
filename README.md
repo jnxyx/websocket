@@ -1,2 +1,2 @@
-[Websocket](https://github.com/jnxyx/upload) — Html5 Websocket Based on Node.js
+[Websocket](https://github.com/jnxyx/websocket) — Html5 Websocket Based on Node.js
 ==================================================
