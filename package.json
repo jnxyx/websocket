@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "Yun Xiang Xu",
+    "email": "821969066@qq.com"
+  },
+  "name": "websocket",
+  "title": "websocket",
+  "description": "Websocket Project",
+  "version": "1.0.0",
+  "main": "websocket/websocket.js",
+  "keywords": [
+    "websocket",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-uglify": "2.0.0",
+    "gulp-concat": "2.6.0",
+    "gulp-rename": "1.2.2"
+  },
+  "scripts": {
+    "build": "npm install && gulp",
+    "start": "gulp watch",
+    "test": "gulp && gulp test"
+  }
+}
