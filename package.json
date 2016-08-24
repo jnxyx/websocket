@@ -16,14 +16,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "3.9.1",
-    "gulp-uglify": "2.0.0",
-    "gulp-concat": "2.6.0",
-    "gulp-rename": "1.2.2"
+    "nodejs-websocket": "1.0.1",
+    // "node-inspector": "1.0.x"
   },
   "scripts": {
-    "build": "npm install && gulp",
-    "start": "gulp watch",
-    "test": "gulp && gulp test"
+    "build": "npm install"
   }
 }

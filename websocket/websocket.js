@@ -22,7 +22,7 @@ wss.on('connection', function(ws) {
         ws.on('message', function(message) {
             recordArray.push(ws.id + ' : ' +
                 message);
-            sendToAll(ws, message)
+            sendToAll(ws, message);
             console.log('received: %s', message);
         });
 
