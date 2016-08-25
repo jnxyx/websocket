@@ -27,8 +27,11 @@ wss.on('connection', function(ws) {
         });
 
         ws.on('close', function(evt) {
-            console.log(evt);
-            console.log('disconnected!');
+            for (var i = 0; i < wsArray.length; i++) {
+                if (this === wsArray[i]) {
+                    wsArray.splice(i, 1);
+                }
+            }
         });
 
     } catch (e) {
