@@ -7,7 +7,7 @@
   "title": "websocket",
   "description": "Websocket Project",
   "version": "1.0.0",
-  "main": "websocket/websocket.js",
+  "main": "server/websocket.js",
   "keywords": [
     "websocket",
     "javascript",
